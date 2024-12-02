@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV </title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+  <div class="container">
+
+     <header>
+        <img src="Formal pic.jpg" alt="Profile Photo">
+        <h1>Atkia Fariha Sharna</h1>
+        <p>Business Graduate</p>
+        <p>Email:atkiafarihasharna19mgt010@gmail.com | Phone: +8801909419664</p>
+        <p>Address: Department of Management Studies, University of Barishal</p>
+     </header>
+
+     <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+     
+
+<section>
+    <h2>About me </h2>
+    <p>I am a Bachelor of Business Administration (BBA) graduate with a strong foundation in Management.My academic journey has equipped me with key skills in strategic planning, data analysis, team collaboration,complemented by practical experience through projects, or relevant activities. I am passionate about human resource management, driving organizational growth, fostering innovation and seek opportunities to apply my knowledge in a dynamic and challenging environment. </p>
+</section>
+<section id ="skill" class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML5 & CSS3</li>
+        <li>Bootstrap Framework</li>
+        <li>Power Point</li>
+        <li>Microsoft Word</li>
+        <li>Microsoft Excel</li>
+    </ul>
+</section>
+
+<section id="education" class="education">
+    <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Passing Year</th>
+                <th>CGPA</th>
+            </tr> 
+            <tr>
+                <td>BBA in Management Studies</td>
+                <td>University of Barishal</td>
+                <td>2022</td>
+                <td>3.51</td>
+            </tr>
+            <tr>
+            <td>Higher Secondary Certificate</td>
+            <td>Govt.Birshrasta Shahid Hamidur Rahman Degree College. </td>
+            <td>2017</td>
+            <td>4.58</td>
+          </tr>
+            
+          <tr>
+          <td>Secondary School Certificate</td>
+          <td>Khalishpur Secondary High School. </td>
+          <td>2015</td>
+          <td>4.83</td>
+      </tr>
+
+    </table>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p> &copy; 2024 Atkia - All Rights Reserved</p>
+    </footer>
+  </div>  
+</body>
+</html>
